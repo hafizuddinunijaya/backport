@@ -36,4 +36,4 @@ Route::post('formcontroller', 'App\Http\Controllers\FormController@index');
 
 Route::resource('user', 'App\Http\Controllers\UserController');
 
-Route::view('user','user');
+Route::view('form','form');

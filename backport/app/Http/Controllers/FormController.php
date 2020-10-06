@@ -15,8 +15,10 @@ class FormController extends Controller
     public function index(Request $req)
     {
         $req->validate([
-            'address'=>'required',
-            'email'=>'required|email'
+            'name'=>'required',
+            'email'=>'required|email',
+            'password'=>'required'
+
 
         ]);
         return $req->input();

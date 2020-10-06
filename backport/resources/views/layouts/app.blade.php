@@ -37,7 +37,7 @@
                             <a class="nav-link" href="/info">Info</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/user">User</a>
+                            <a class="nav-link" href="/form">Form</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="/upload">Upload</a>

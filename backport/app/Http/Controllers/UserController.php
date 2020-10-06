@@ -17,7 +17,7 @@ class UserController extends Controller
      */
     public function index()
     {
-      $data=DB::table('users')->paginate(2);
+      $data=DB::table('users')->paginate(5);
       return view('info',['data'=>$data]);
     }
 
